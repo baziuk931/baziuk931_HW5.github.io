@@ -1,0 +1,112 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    border-collapse: collapse;
+    
+    outline: none;
+
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+
+    justify-content: left;
+}
+
+.tableContainer {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 61%;
+    height: auto;
+    justify-content: space-between;
+}
+
+table {
+    margin-left: 0px;
+
+    width: 100%;
+    height: 150px;
+
+    overflow: hidden;
+    border-radius: 5px;
+
+    background-color: rgb(47, 47, 47);
+}
+
+.tableRad {
+
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+    margin-bottom: 31px;
+}
+
+tr {
+    border-bottom: 1px solid rgb(110, 110, 110);
+    line-height: 18px;
+}
+
+td,
+th {
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+
+    vertical-align: middle;
+}
+
+.c-3 {
+    text-align: right;
+    width: max-content;
+    color: rgb(255, 255, 255);
+}
+
+.c-2{
+    color: rgb(98, 98, 98);
+    width: 25%;
+}
+
+.c-1 {
+    width: 50%;
+    
+}
+
+tr:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+input#search {
+    background-image: url(./Pic/icons8-search-24.png);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    background-position-x: 2px;
+
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+    height: 16px;
+    color: rgb(98, 98, 98);
+
+    padding: 5px;
+    width: 100%;
+    height: 25px;
+
+
+}
+
+th.c-3{
+    padding: 4px;
+}
+
+
+input#search:focus {
+    background-image: none;
+    
+}
+
